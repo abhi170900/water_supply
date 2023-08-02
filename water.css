@@ -1,0 +1,316 @@
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    border: 2px solid white;
+    border-radius:10px ;
+}
+
+nav ul li:hover{
+    color: black;
+    background-color:wheat;
+    
+}
+
+li{
+    float: left;
+    /* padding: 20px; */
+    text-decoration: none;
+    list-style: none;
+    margin-left: 180px;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+
+ul{
+    overflow:auto;
+    margin-top:4px;
+}
+
+
+#container
+{
+    /* background-image:url(picures/l.jpg); */
+    background-color: black;
+    height:100px;
+    width: 100%;
+    background-position: fixed;
+    background-size: cover;
+}
+
+#product
+{
+    height:100vh;
+    width: 100%;
+    border-radius: 5px;
+    background-image: url(../Water/images/perlex\ -\ Copy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#signup{
+    background-image: url(../Water/images/waterer\ -\ Copy.jpg);
+    height: 800px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 60px;
+}
+
+
+#btn{
+    height: 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    float: left;
+    margin-top: 200px;
+    margin-left: -600px;
+}
+
+#btn:hover{
+    background-color: aqua;
+    color: white;
+}
+#p{
+    height: 200px;
+    width: 100%;
+}
+
+#product{
+    float: left;
+}
+
+#item{
+
+    float: left;
+    display:flex;
+}
+
+.first{
+    height:240px;
+    width: 250px;
+    background-color: red;
+    padding: 3px;
+    margin-left:-500px;
+    margin-top: 130px;
+    float: left;
+    border-radius: 50%;
+}
+
+#f1{
+    background-image: url(../picures/item.jpg);
+    background-size: cover;
+opacity: 0.5;
+position: relative;
+animation: abc 10s infinite;
+}
+
+
+
+@keyframes abc{
+  from{left: 0px;}
+  to{transform: rotate(360deg);}
+}
+#f2{
+    background-image: url(../picures/jp.jpg);
+    background-size: cover;
+    margin-left: 50px;
+    opacity: 0.5;
+    position: relative;
+    animation: abc 10s infinite;
+}
+
+#f3{
+    margin-left: 50px;
+    position: relative;
+    animation: abc 10s infinite;
+    background-image: url(../Water/images/panni.webp);
+    background-size: cover;
+    opacity: 0.5;
+}
+
+#details{
+    width: 100%;
+    height: 600px;
+    background-color: aquamarine;
+    float: left;
+
+}
+
+#water{
+    height: 500px;
+    width: 400px;
+    background-color:rgb(90, 212, 90);
+    margin-left: 30px;
+    float: left;
+    margin-top: -740px;
+
+
+}
+
+#water_img{
+
+    background-image: url(../Water/images/supple.webp);
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-top: 430px;
+    margin-left: -140px;
+
+  }
+  
+  #minus-btn,
+  #plus-btn {
+    display: inline-block;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    color: blue;
+
+  }
+  
+  #item-count {
+    display: inline-block;
+    margin: 0 0.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+
+  #instruction{
+   float: left; 
+   margin-left: -250px;
+   margin-top: 100px;
+
+  }
+
+  #instruction h3{
+    font-size: 19px;
+  }
+
+  .hidden{
+    min-height: 400px;
+    opacity: 0;
+    transform: translatex(-100%);
+    filter: blur(5px);
+    transition: all 5s;
+    margin: 0px;
+  }
+  
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  
+  }
+  
+  #h2{
+    margin: 0px;
+    float: left;
+    margin-top: -400px;
+  }
+
+
+  #h1{
+    float: left;
+    margin-top: -600px;
+  }
+
+
+  #flexes{
+    display: flex;
+    padding: 12px;
+    margin-left: 150px;
+    float: left;
+    margin-top: -100px;
+  }
+
+  #flex1{
+    height: 400px;
+    width: 300px;
+    
+
+  }
+
+
+  #flex1:hover{
+    border: 1px solid black;
+    position: relative;
+animation: abc 10s infinite;
+  }
+
+  #flex2{
+margin-left: 20px;
+    height: 400px;
+    width: 300px;
+    
+  }
+
+  #flex2:hover{
+    border: 1px solid black;
+    position: relative;
+animation: abc 10s infinite;
+  }
+
+  #flex3{
+    margin-left: 20px;
+    height: 400px;
+    width: 300px;
+   
+  }
+
+  #flex3:hover{
+    border: 1px solid black;
+    position: relative;
+animation: abc 10s infinite;
+  }
+#flex1 img{
+    width: 100%;
+    height:200px;
+
+}
+
+#flex2 img{
+    width: 100%;
+    height:200px;
+    
+}
+
+#flex3 img{
+    width: 100%;
+    height:200px;
+    
+}
+
+#paste{
+    float: left;
+    margin-top: 40px;
+}
+
+#contact{
+  height: 400px;
+  width: 100%;
+  background-color: black;
+  float: left;
+}
